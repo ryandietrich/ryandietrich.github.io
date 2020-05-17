@@ -126,7 +126,7 @@ function calculateTableEntries(values) {
 
 function recalculate() {
     var values = getCurrentValues();
-    console.log(values);
+    //console.log(values);
 
     if ( values.totalXP && values.pokemonCaught && values.pokestopsVisited && validDate ) {
 
@@ -147,10 +147,10 @@ function recalculate() {
 
         $("#dataTable").css("display", "block");
     } else {
-        console.log("totalXP = " + values.totalXP);
-        console.log("pokemonCaught = " + values.pokemonCaught);
-        console.log("pokestopsVisited = " + values.pokestopsVisited);
-        console.log("startDate = " + values.startDate + ", validDate=" + validDate);
+        //console.log("totalXP = " + values.totalXP);
+        //console.log("pokemonCaught = " + values.pokemonCaught);
+        //console.log("pokestopsVisited = " + values.pokestopsVisited);
+        //console.log("startDate = " + values.startDate + ", validDate=" + validDate);
     }
 }
 
