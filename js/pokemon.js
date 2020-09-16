@@ -180,7 +180,7 @@ $(document).ready(function(){
 });
 
 // May 17
-function setRyan17May() {
+function setRyanMay() {
     $("#totalXP").val(72726389);
     $("#pokemonCaught").val(85874);
     $("#pokestopsVisited").val(51401);
@@ -201,7 +201,7 @@ function setRyan17May() {
     recalculate();
 }
 
-function setRyan16September() {
+function setRyanSeptember() {
     $("#totalXP").val(90747266);
     $("#pokemonCaught").val(115844);
     $("#pokestopsVisited").val(60840);
