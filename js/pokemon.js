@@ -221,3 +221,24 @@ function setRyanSeptember() {
 
     recalculate();
 }
+
+function setRyanNovember() {
+    $("#totalXP").val(100000000);
+    $("#pokemonCaught").val(129630);
+    $("#pokestopsVisited").val(66084);
+    $("#startDate").val("07/10/2016");
+    $("#scientist").val(14809);
+    $("#breeder").val(2869);
+    $("#battleGirl").val(9448);
+    $("#idol").val(97);
+    $("#champion").val(334);
+    $("#battleLegend").val(745);
+
+    $("#battleLegendCheck").prop("checked", true);
+    $("#idolCheck").prop("checked", true);
+    $("#scientistCheck").prop("checked", true);
+
+    validateDate();
+
+    recalculate();
+}
