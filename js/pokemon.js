@@ -242,3 +242,67 @@ function setRyanNovember() {
 
     recalculate();
 }
+
+function setRyanJanuary2021() {
+    $("#totalXP").val(122380455);
+    $("#pokemonCaught").val(143325);
+    $("#pokestopsVisited").val(71643);
+    $("#startDate").val("07/10/2016");
+    $("#scientist").val(16083);
+    $("#breeder").val(2972);
+    $("#battleGirl").val(9706);
+    $("#idol").val(99);
+    $("#champion").val(359);
+    $("#battleLegend").val(781);
+
+    $("#battleLegendCheck").prop("checked", true);
+    $("#idolCheck").prop("checked", true);
+    $("#scientistCheck").prop("checked", true);
+
+    validateDate();
+
+    recalculate();
+}
+
+function setRyanApril2021() {
+    // April 13 2021
+    $("#totalXP").val(152600044);
+    $("#pokemonCaught").val(166028);
+    $("#pokestopsVisited").val(79467);
+    $("#startDate").val("07/10/2016");
+    $("#scientist").val(18773);
+    $("#breeder").val(3104);
+    $("#battleGirl").val(10477);
+    $("#idol").val(118);
+    $("#champion").val(396);
+    $("#battleLegend").val(915);
+
+    $("#battleLegendCheck").prop("checked", true);
+    $("#idolCheck").prop("checked", true);
+    $("#scientistCheck").prop("checked", true);
+
+    validateDate();
+
+    recalculate();
+}
+
+function setRyanMay2021() {
+    $("#totalXP").val(176173500);
+    $("#pokemonCaught").val(179917);
+    $("#pokestopsVisited").val(85175);
+    $("#startDate").val("07/10/2016");
+    $("#scientist").val(21092);
+    $("#breeder").val(3143);
+    $("#battleGirl").val(10695);
+    $("#idol").val(122);
+    $("#champion").val(406);
+    $("#battleLegend").val(939);
+
+    $("#battleLegendCheck").prop("checked", true);
+    $("#idolCheck").prop("checked", true);
+    $("#scientistCheck").prop("checked", true);
+
+    validateDate();
+
+    recalculate();
+}
